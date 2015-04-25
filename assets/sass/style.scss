@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@for $i from 1 through 16 {
+    .top#{($i * 5)}
+    {
+        margin-top: $i*5px;
+    }
+}
+
+
+@for $i from 1 through 16 {
+    .bottom#{($i * 5)}
+    {
+        margin-bottom: $i*5px;
+    }
+}

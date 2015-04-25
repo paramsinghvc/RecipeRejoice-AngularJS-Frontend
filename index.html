@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-controller="masterCtrl">
+
+<head>
+    <title ng-bind="appTitle"></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en-us" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/united.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="/assets/js/vendor/require.js"></script>
+    <script>
+    require.config({
+        paths: {
+            main: '/app/main'
+        }
+    });
+    require(['main']);
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Nav Bar Template -->
+        <div ng-include="'nav'"></div>
+        <div class="row top50">
+            <div class="container">
+                <!-- ng View Container -->
+                <div ng-view>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
