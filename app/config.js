@@ -2,28 +2,34 @@ define([], function() {
     return {
         appName: 'RecipeRejoice',
 
-        apiBase: 'http://reciperejoice.dev/api/',
+        // apiBase: 'http://reciperejoice.dev/api/',
 
-        authBase: 'http://reciperejoice.dev/auth',
+        // authBase: 'http://reciperejoice.dev/auth',
 
-        tmplBase: '/app/tmpls/',
+        // tmplBase: '/app/views/',
+
+        // pageBase: '/',
+
+        // home: '/home',
+
+        // imagesBase: 'http://reciperejoice.dev/assets/uploads/',
+
+        // thumbsBase: 'http://reciperejoice.dev/assets/uploads/thumbs/',
+
+
+        apiBase: 'https://fathomless-reef-2896.herokuapp.com/api/',
+
+        authBase: 'https://fathomless-reef-2896.herokuapp.com/auth',
+
+        tmplBase: '/app/views/',
 
         pageBase: '/',
 
         home: '/home',
 
-        imagesBase: 'http://reciperejoice.dev/assets/uploads/',
+        imagesBase: 'https://fathomless-reef-2896.herokuapp.com/assets/uploads/',
 
-        thumbsBase: 'http://reciperejoice.dev/assets/uploads/thumbs/',
+        thumbsBase: 'https://fathomless-reef-2896.herokuapp.com/assets/uploads/thumbs/',
 
-        apiUsername: 'reciperejoice',
-
-        apiKey: '',
-
-        facebookAppId: '894617703896150', // Local Test FB App ID
-
-        googleClientId: '738382813474-can6ldtfrn4vkdu6bvkdf2j4crl66oii.apps.googleusercontent.com', // Local G+ Client Id
-
-        googleApiKey: 'AIzaSyAWQu_DaNiEo-xL8j4Zx-D1jHbTpUwFM3s'
     }
 })
