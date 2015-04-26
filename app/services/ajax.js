@@ -11,7 +11,7 @@ define(
 
                     var deferred = $q.defer();
 
-                    var identifier = {};          
+                    var identifier = {};
                     $('.loader').modal('show');
                     var success = function(data, status, xhr) {
                         $rootScope.$apply(function() {
@@ -57,7 +57,7 @@ define(
 
                     options.data = options.data || {};
                     options.type = options.type || 'GET';
-                    options.dataType = options.dataType || 'json';              
+                    options.dataType = options.dataType || 'json';
                     options.xhrFields = {
                         withCredentials: true
                     }
