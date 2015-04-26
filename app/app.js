@@ -6,9 +6,11 @@ define([
     'filters',
     'services',
     'bootstrap',
+    'sanitize',
     'ngRoute',
     'uiBootstrap',
     'config',
+    'ngImgCrop'
 
 ], function(
     angular,
@@ -18,8 +20,10 @@ define([
     filters,
     services,
     bootstrap,
+    sanitize,
     ngRoute,
-    config
+    config,
+    ngImgCrop
 
 ) {
 
@@ -29,7 +33,9 @@ define([
         'reciperejoice.directives',
         'reciperejoice.filters',
         'ui.bootstrap',
-        'ngRoute'
+        'ngRoute',
+        'ngSanitize',
+        'ngImgCrop'
     ]).config(function($interpolateProvider) {
         $interpolateProvider.startSymbol('[[');
         $interpolateProvider.endSymbol(']]');

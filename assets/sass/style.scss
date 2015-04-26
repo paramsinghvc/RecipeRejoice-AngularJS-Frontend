@@ -3,17 +3,122 @@
     margin: 0;
 }
 
-@for $i from 1 through 16 {
+@for $i from 0 through 16 {
     .top#{($i * 5)}
     {
         margin-top: $i*5px;
     }
 }
 
+@for $i from 0 through 16 {
+    .right#{($i * 5)}
+    {
+        margin-right: $i*5px;
+    }
+}
 
-@for $i from 1 through 16 {
+@for $i from 0 through 16 {
+    .left#{($i * 5)}
+    {
+        margin-left: $i*5px;
+    }
+}
+
+
+@for $i from 0 through 16 {
     .bottom#{($i * 5)}
     {
         margin-bottom: $i*5px;
     }
+}
+
+.working {
+    height: 60px;
+    background: url('../images/pizza.GIF') no-repeat;
+    position: absolute;
+    width: 60px;
+    left: 50%;
+    margin-left: -27px;
+    top: 100px;
+    display: block;
+    z-index: 100;
+}
+.clickable{
+    cursor: pointer;
+    outline: none !important;
+}
+
+img-crop {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+img-crop canvas {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  
+}
+
+.cropArea {
+  background: #E4E4E4;
+  overflow: hidden;
+  width:200px;
+  height:200px;
+}
+
+.imageUpload {
+    width: 95px;
+    height: 95px;
+    float: left;
+    text-align: center;
+    border: 1px dashed #333;
+    background: #eee;
+    color: transparent;
+    background-size: contain;
+    margin-right: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.recipeDesc{
+  line-height: 1.8;
+  font-weight: normal;
+  font-size: 15px;
+}
+.imageUpload::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.commentsList{
+  @extend .top30;
+  list-style: none;
+  li{
+    
+    overflow: hidden;
+    @extend .bottom20;
+    .commentText{
+      width:77%;
+      float:left;
+      background: #ccc;
+      padding: 10px 20px;
+      border-radius: 30px;
+    }
+    .editButton{
+      width:10%;
+      float:right;
+      button{
+      border-radius: 50%;  
+      }
+      
+    }
+    .deleteButton{
+      @extend .editButton;
+    }
+  }
 }

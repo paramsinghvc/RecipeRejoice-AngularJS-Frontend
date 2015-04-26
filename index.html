@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="language" content="en-us" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/united.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/united.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/js/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="/assets/js/vendor/fancybox/helpers/jquery.fancybox-thumbs.css">
+    <link rel="stylesheet" type="text/css" href="/assets/js/vendor/fancybox/helpers/jquery.fancybox-buttons.css">
+    
     <script type="text/javascript" src="/assets/js/vendor/require.js"></script>
     <script>
     require.config({
@@ -22,6 +26,10 @@
 
 <body>
     <div class="container-fluid">
+        <!-- Ajax Loading Animation -->
+        <div class="modal loader" tabindex="-1">
+            <div class="working"></div>
+        </div>
         <!-- Nav Bar Template -->
         <div ng-include="'nav'"></div>
         <div class="row top50">

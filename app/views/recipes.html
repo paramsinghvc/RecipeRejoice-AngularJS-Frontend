@@ -1,5 +1,19 @@
 <ul class="list-group">
-    <li class="list-group-item" ng-repeat="recipe in recipes">
-    	[[title]] - [[description]]	
+    <li class="list-group-item clickable" ng-repeat="recipe in recipes" ng-click="showRecipe(recipe.id)">
+        <div class="row">
+            <div class="col-sm-2">
+                <img ng-src="[[(thumbsBase + recipe.photo) | hasPhoto]]" class="img-responsive">
+            </div>
+            <div class="col-sm-10">
+                <div class="row h2">
+                    [[recipe.title]]
+                </div>
+                <div class="row">
+                    <strong>Ingredients : </strong>[[recipe.ingredients]]
+                </div><div class="row">
+                    <strong>Posted By : </strong>[[recipe.username]]
+                </div>
+            </div>
+        </div>
     </li>
 </ul>

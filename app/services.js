@@ -2,17 +2,20 @@ define([
     'angular',
     'services/ajax',
     'services/api',
-    'services/recipe'
+    'services/recipe',
+     'services/comment'
 ], function(
     angular,
     ajax,
     api,
-    recipe
+    recipe,
+    comment
 ) {
     angular
         .module('reciperejoice.services', [])
         .factory('ajax', ajax)
         .factory('api', api)
-        .factory('recipe', recipe)
+        .factory('Recipe', recipe)
+        .factory('Comment', comment)
 
 })

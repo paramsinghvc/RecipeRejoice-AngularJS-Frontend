@@ -1,0 +1,79 @@
+<div class="row top60">
+    <div class="col-sm-2 bottom10">
+        <fancybox>
+            <div>
+                <a class="fancybox-thumb" rel="fancybox-thumb" ng-href="[[(imagesBase + recipe.photo) | hasPhoto]]">
+                    <img ng-src="[[(thumbsBase + recipe.photo) | hasPhoto]]" class="img-responsive">
+                </a>
+            </div>
+        </fancybox>
+    </div>
+    <div class="col-sm-9">
+        <div class="h2 top0">
+            <span class="glyphicon glyphicon-glass right10"></span> Recipe Name : [[recipe.title]]
+        </div>
+        <br>
+        <div class="h4" style="margin-top:-10px">
+            <span class="glyphicon glyphicon-cutlery right20"></span> <strong> Ingredients : </strong>[[recipe.ingredients]]
+        </div>
+    </div>
+    <div class="col-sm-1">
+        <a ng-href="[[urlBase+'/edit']]">
+            <button type="button" class=" btn btn-info top0 pull-right">
+                <div class="hidden-sm hidden-md hidden-lg">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                </div>
+                <div class="hidden-xs">
+                    <span class="glyphicon glyphicon-pencil right10"></span>Edit
+                </div>
+            </button>
+        </a>
+    </div>
+</div>
+<div class="row top30 h4">
+    <div class="col-sm-12 recipeDesc">
+        <span class="glyphicon glyphicon-th-list right10"></span> <strong> Description :  </strong> [[recipe.description]]
+    </div>
+</div>
+<div class="row top20 h4">
+    <div class="col-sm-12">
+        <span class="glyphicon glyphicon-user right10"></span> <strong> Posted By :</strong> [[recipe.username]]</div>
+</div>
+<div class="row top20 h4">
+    <div class="col-sm-12">
+        <span class="glyphicon glyphicon-star right10"></span> <strong> Rating : </strong>[[recipe.vote]]</div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Comments</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <form ng-submit="postComment()">
+            <div class="row">
+                <div class="col-sm-10 col-xs-12 bottom20">
+                    <input class="form-control" ng-model="recipe.newCommentText" placeholder="Type Comment and hit enter">
+                </div>
+                <div class="col-sm-2 col-xs-12">
+                    <button type="submit" class="btn btn-primary btn-block">Post Comment</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <ul class="commentsList">
+            <li ng-repeat="comment in recipe.comments">
+                <div class="commentText">[[comment.text]]</div>
+                <div class="deleteButton">
+                    <button type="button" class="btn btn-danger clickable" ng-click="deleteComment(comment.id)">
+                        <span class="glyphicon glyphicon-trash"></span> </button>
+                </div>
+                
+            </li>
+        </ul>
+    </div>
+</div>

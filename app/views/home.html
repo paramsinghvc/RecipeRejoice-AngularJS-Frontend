@@ -1,1 +1,11 @@
-<h1>Good Feeling</h1>
+<tabset class="top40">
+    <tab heading="Latest Recipes">
+        <div ng-include="'recipes'" ng-controller="recipesCtrl" ng-init="orderBy = 'latestPosted'"></div>
+    </tab>
+    <tab heading="Top Rated">
+        <div ng-include="'recipes'" ng-controller="recipesCtrl" ng-init="orderBy = 'topRated'"></div>
+    </tab>
+    <tab heading="Mostly Commented">
+        <div ng-include="'recipes'" ng-controller="recipesCtrl" ng-init="orderBy = 'mostCommented'"></div>
+    </tab>
+</tabset>

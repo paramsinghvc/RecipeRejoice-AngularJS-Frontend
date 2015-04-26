@@ -5,6 +5,11 @@
 }
 
 /* line 7, ../sass/style.scss */
+.top0 {
+  margin-top: 0px;
+}
+
+/* line 7, ../sass/style.scss */
 .top5 {
   margin-top: 5px;
 }
@@ -30,7 +35,7 @@
 }
 
 /* line 7, ../sass/style.scss */
-.top30 {
+.top30, .commentsList {
   margin-top: 30px;
 }
 
@@ -84,82 +89,356 @@
   margin-top: 80px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
+.right0 {
+  margin-right: 0px;
+}
+
+/* line 14, ../sass/style.scss */
+.right5 {
+  margin-right: 5px;
+}
+
+/* line 14, ../sass/style.scss */
+.right10 {
+  margin-right: 10px;
+}
+
+/* line 14, ../sass/style.scss */
+.right15 {
+  margin-right: 15px;
+}
+
+/* line 14, ../sass/style.scss */
+.right20 {
+  margin-right: 20px;
+}
+
+/* line 14, ../sass/style.scss */
+.right25 {
+  margin-right: 25px;
+}
+
+/* line 14, ../sass/style.scss */
+.right30 {
+  margin-right: 30px;
+}
+
+/* line 14, ../sass/style.scss */
+.right35 {
+  margin-right: 35px;
+}
+
+/* line 14, ../sass/style.scss */
+.right40 {
+  margin-right: 40px;
+}
+
+/* line 14, ../sass/style.scss */
+.right45 {
+  margin-right: 45px;
+}
+
+/* line 14, ../sass/style.scss */
+.right50 {
+  margin-right: 50px;
+}
+
+/* line 14, ../sass/style.scss */
+.right55 {
+  margin-right: 55px;
+}
+
+/* line 14, ../sass/style.scss */
+.right60 {
+  margin-right: 60px;
+}
+
+/* line 14, ../sass/style.scss */
+.right65 {
+  margin-right: 65px;
+}
+
+/* line 14, ../sass/style.scss */
+.right70 {
+  margin-right: 70px;
+}
+
+/* line 14, ../sass/style.scss */
+.right75 {
+  margin-right: 75px;
+}
+
+/* line 14, ../sass/style.scss */
+.right80 {
+  margin-right: 80px;
+}
+
+/* line 21, ../sass/style.scss */
+.left0 {
+  margin-left: 0px;
+}
+
+/* line 21, ../sass/style.scss */
+.left5 {
+  margin-left: 5px;
+}
+
+/* line 21, ../sass/style.scss */
+.left10 {
+  margin-left: 10px;
+}
+
+/* line 21, ../sass/style.scss */
+.left15 {
+  margin-left: 15px;
+}
+
+/* line 21, ../sass/style.scss */
+.left20 {
+  margin-left: 20px;
+}
+
+/* line 21, ../sass/style.scss */
+.left25 {
+  margin-left: 25px;
+}
+
+/* line 21, ../sass/style.scss */
+.left30 {
+  margin-left: 30px;
+}
+
+/* line 21, ../sass/style.scss */
+.left35 {
+  margin-left: 35px;
+}
+
+/* line 21, ../sass/style.scss */
+.left40 {
+  margin-left: 40px;
+}
+
+/* line 21, ../sass/style.scss */
+.left45 {
+  margin-left: 45px;
+}
+
+/* line 21, ../sass/style.scss */
+.left50 {
+  margin-left: 50px;
+}
+
+/* line 21, ../sass/style.scss */
+.left55 {
+  margin-left: 55px;
+}
+
+/* line 21, ../sass/style.scss */
+.left60 {
+  margin-left: 60px;
+}
+
+/* line 21, ../sass/style.scss */
+.left65 {
+  margin-left: 65px;
+}
+
+/* line 21, ../sass/style.scss */
+.left70 {
+  margin-left: 70px;
+}
+
+/* line 21, ../sass/style.scss */
+.left75 {
+  margin-left: 75px;
+}
+
+/* line 21, ../sass/style.scss */
+.left80 {
+  margin-left: 80px;
+}
+
+/* line 29, ../sass/style.scss */
+.bottom0 {
+  margin-bottom: 0px;
+}
+
+/* line 29, ../sass/style.scss */
 .bottom5 {
   margin-bottom: 5px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom10 {
   margin-bottom: 10px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom15 {
   margin-bottom: 15px;
 }
 
-/* line 15, ../sass/style.scss */
-.bottom20 {
+/* line 29, ../sass/style.scss */
+.bottom20, .commentsList li {
   margin-bottom: 20px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom25 {
   margin-bottom: 25px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom30 {
   margin-bottom: 30px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom35 {
   margin-bottom: 35px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom40 {
   margin-bottom: 40px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom45 {
   margin-bottom: 45px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom50 {
   margin-bottom: 50px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom55 {
   margin-bottom: 55px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom60 {
   margin-bottom: 60px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom65 {
   margin-bottom: 65px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom70 {
   margin-bottom: 70px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom75 {
   margin-bottom: 75px;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .bottom80 {
   margin-bottom: 80px;
+}
+
+/* line 35, ../sass/style.scss */
+.working {
+  height: 60px;
+  background: url("../images/pizza.GIF") no-repeat;
+  position: absolute;
+  width: 60px;
+  left: 50%;
+  margin-left: -27px;
+  top: 100px;
+  display: block;
+  z-index: 100;
+}
+
+/* line 46, ../sass/style.scss */
+.clickable {
+  cursor: pointer;
+  outline: none !important;
+}
+
+/* line 51, ../sass/style.scss */
+img-crop {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 59, ../sass/style.scss */
+img-crop canvas {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+/* line 69, ../sass/style.scss */
+.cropArea {
+  background: #E4E4E4;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+/* line 76, ../sass/style.scss */
+.imageUpload {
+  width: 95px;
+  height: 95px;
+  float: left;
+  text-align: center;
+  border: 1px dashed #333;
+  background: #eee;
+  color: transparent;
+  background-size: contain;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* line 89, ../sass/style.scss */
+.recipeDesc {
+  line-height: 1.8;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+/* line 94, ../sass/style.scss */
+.imageUpload::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+/* line 98, ../sass/style.scss */
+.commentsList {
+  list-style: none;
+}
+/* line 101, ../sass/style.scss */
+.commentsList li {
+  overflow: hidden;
+}
+/* line 105, ../sass/style.scss */
+.commentsList li .commentText {
+  width: 77%;
+  float: left;
+  background: #ccc;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+/* line 112, ../sass/style.scss */
+.commentsList li .editButton, .commentsList li .deleteButton {
+  width: 10%;
+  float: right;
+}
+/* line 115, ../sass/style.scss */
+.commentsList li .editButton button, .commentsList li .deleteButton button {
+  border-radius: 50%;
 }
